@@ -78,5 +78,5 @@ pub fn executar_estatisticas_descritivas(numeros: Vec<i32>){
     println!("Media: {:.2}", media_resultado);
 
     let moda_resultado = estatisticas.moda();
-    println!("Moda: {:.?}", moda_resultado);
+    println!("Moda: {:?}", moda_resultado);
 }
